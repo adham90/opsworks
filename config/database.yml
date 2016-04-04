@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: api_aws_production
-  username: api_aws
-  password: <%= ENV['API_AWS_DATABASE_PASSWORD'] %>
+  database: ebdb
+  username: <%= ENV['username'] %>
+  password: <%= ENV['password'] %>
