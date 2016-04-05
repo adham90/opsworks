@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: ebdb
+  database: monolithic_massdrop_production
   username: <%= ENV['username'] %>
   password: <%= ENV['password'] %>
